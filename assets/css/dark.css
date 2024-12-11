@@ -1,6 +1,6 @@
 body {
-  color: white;
-  background-color: #202124;
+  color: #cad3f5;
+  background-color: #181926;
 }
 
 ::-moz-selection {
@@ -10,7 +10,7 @@ body {
 }
 
 ::selection {
-  background: red;
+  background: #1e66f5;
   color: #fff;
   text-shadow: none;
 }
@@ -19,18 +19,20 @@ hr {
   border-top: 3px dotted blue;
 }
 code {
-  background-color: lightblue;
-  color: black;
+  background-color: #363a4f;
+  color: #cad3f5;
   text-decoration: bold;
   padding: 0.1em 0.2em;
 }
 pre {
-  background-color: #272822;
+  background-color: #363a4f;
+  color: #cad3f5;
   line-height: 1.4;
   overflow-x: auto;
   padding: 1em;
 }
 blockquote {
+  background-color: #363a4f;
   border-color: blue;
 }
 
@@ -40,7 +42,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #ddd;
+  color: #cad3f5;
 }
 h1::before {
   color: var(--darkMaincolor);
@@ -68,7 +70,7 @@ h6::before {
 }
 
 .toc {
-  background-color: #272822;
+  background-color: #363a4f;
   color: white;
 }
 
@@ -104,11 +106,16 @@ a:hover {
 .header nav,
 .footer {
   border-color: #333;
+  background-color: #363a4f ;
 }
 
-.highlight {
-  background-color: #333;
+.highlight code {
+  background-color: #232634 !important;
 }
+.highlight pre {
+  background-color: #232634 !important;
+}
+
 .soc:hover {
   color: black;
 }

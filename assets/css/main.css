@@ -1,13 +1,13 @@
 /* Markdown */
 :root{
---maincolor: red;
---bordercl:rebeccapurple;
---callouctcolor:dodgerblue;
+--maincolor: #c6a0f6;
+--bordercl: #c6a0f6;
+--callouctcolor:rgb(61, 122, 184);
 --hovercolor:navy;
---darkMaincolor: #50fa7b;
+--darkMaincolor: #c6a0f6;
 }
 html {
-  color: #232333;
+  color: #181926;
   font-family: 'Roboto Mono', monospace;
   font-size: 15px;
   line-height: 1.6em;
@@ -97,6 +97,15 @@ figure h4::before {
   content: '↳ ';
 }
 
+
+.highlight code {
+  background-color: #232634 !important;
+}
+.highlight pre {
+  background-color: #232634 !important;
+}
+
+
 /* Code blocks */
 code {
   background-color: #f1f1f1;
@@ -111,13 +120,14 @@ pre {
 }
 
 .highlight pre ::selection {
-  background: rgba(255, 255, 255, 0.2);
+  background-color: #363a4f ;
+  background: #363a4f;
   color: inherit;
 }
 
 pre code {
-  background-color: transparent;
-  color: inherit;
+  background-color: #363a4f ;
+  /* color: inherit; */
   font-size: 100%;
   padding: 0;
 }
@@ -314,8 +324,8 @@ color: black ;
 }
 .highlight pre code[class*='language-go']::before{
 content: 'Go';
-background: cyan;
-color: royalblue ;
+background: #85c1dc;
+color: #c6d0f5 ;
 }
 .highlight pre code[class*='language-md']::before,
 .highlight pre code[class*='language-md']::before{
