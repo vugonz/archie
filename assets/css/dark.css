@@ -16,7 +16,7 @@ body {
 }
 
 hr {
-  border-top: 3px dotted blue;
+  border-top: 3px dotted var(--bordercl);
 }
 code {
   background-color: #363a4f;
@@ -70,8 +70,11 @@ h6::before {
 }
 
 .toc {
-  background-color: #363a4f;
-  color: white;
+  background-color: #232634;
+  color: #cad3f5;
+  width: 100%;
+  margin-top: 20px;
+  box-sizing: border-box;
 }
 
 a {
@@ -140,7 +143,7 @@ a:hover {
 .highlight pre code[class*='language-sh']::before {
   content: 'shell';
   background: green;
-  color:white
+  color:black;
 }
 .highlight pre code[class*='language-json']::before{
   content: 'json';
@@ -150,8 +153,8 @@ a:hover {
 .highlight pre code[class*='language-python']::before,
 .highlight pre code[class*='language-py']::before {
   content: 'py';
-  background: blue;
-  color: yellow ;
+  background: #306998;
+  color: #cad3f5;
 }
 .highlight pre code[class*='language-css']::before{
   content: 'css';
@@ -160,12 +163,12 @@ a:hover {
 }
 .highlight pre code[class*='language-go']::before{
   content: 'Go';
-  background: cyan;
-  color: royalblue ;
+  background: #00ADD8;
+  color: #cad3f5;
 }
 .highlight pre code[class*='language-md']::before,
 .highlight pre code[class*='language-md']::before{
   content: 'Markdown';
   background: royalblue;
-  color: whitesmoke ;
+  color: #cad3f5;
 }
